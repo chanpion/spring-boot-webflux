@@ -14,7 +14,7 @@ import javax.annotation.Resource;
  */
 @Service
 public class UserService {
-    @Resource
+//    @Resource
     private UserRepository userRepository;
 
     public Mono<Long> save(User user) {

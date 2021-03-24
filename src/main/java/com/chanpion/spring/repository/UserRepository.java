@@ -9,7 +9,7 @@ import java.util.List;
  * @author April Chen
  * @date 2021/2/8 10:15
  */
-@Repository
+//@Repository
 public interface UserRepository {
 
     Long insert(User user);
